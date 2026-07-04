@@ -105,3 +105,95 @@ if (a === b) {
 } else {
     console.log("all are not equal to each them");
 }
+
+
+
+// <!DOCTYPE html>
+// <html lang="en">
+
+// <head>
+//     <meta charset="UTF-8">
+//     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+//     <title>Flip Card Game</title>
+//     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+//     <link rel="stylesheet" href="style.css">
+// </head>
+
+// <body>
+//     <div class="game">
+//         <div class="card">
+//             <img src="Images/back.png" alt="Back Card" class="card-img  animate__animated " id="card1">
+//         </div>
+//         <div class="card">
+//             <img src="Images/back.png" alt="Back Card" class="card-img  animate__animated " id="card2">
+//         </div>
+//         <div class="card">
+//             <img src="Images/back.png" alt="Back Card" class="card-img  animate__animated " id="card3">
+//         </div>
+//     </div>
+//     <button onclick="flipCard()">Play Game</button>
+
+//     <script src="app.js"></script>
+// </body>
+
+// </html>
+
+
+
+// body {
+//     background-color: darkcyan;
+//     height: 100vh;
+//     display: flex;
+//     justify-content: space-evenly;
+//     align-items: center;
+//     flex-direction: column;
+// }
+
+
+// .game  {
+//     display: flex;
+//     justify-content: space-evenly;
+//     align-items: center;
+//     gap: 40px;
+// }
+
+// .card {
+//     width: 350px;
+//     height: 480px;
+// }
+
+// .card-img {
+//     width: 100%;
+// }
+
+
+// button {
+//     padding: 20px 50px;
+//     background-color: black;
+//     font-size: 30px;
+//     border-radius: 20px;
+//     border: none;
+//     color: white;
+// }
+
+
+// let card1 = document.getElementById("card1")
+// let card2 = document.getElementById("card2")
+// let card3 = document.getElementById("card3")
+
+// let random = Math.ceil(Math.random() * 3)
+
+// function flipCard () {
+//     if(random === 1)
+//     card1.classList.add("animate__flipInY");
+//     card2.classList.add("animate__flipInY");
+//     card3.classList.add("animate__flipInY");
+
+//     imageSrcChange();
+// }
+
+// function imageSrcChange (){
+//     card1.src = "Images/king.png"
+//     card2.src = "Images/queen.jfif"
+//     card3.src = "Images/joker.png"
+// }
